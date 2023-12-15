@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shop</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="./animate.css" />
+    <link rel="stylesheet" href="./flexboxgrid.css" />
+    <link rel="stylesheet" href="./owl.carousel.min.css" />
+    <link rel="stylesheet" href="./owl.theme.default.min.css" />
+    <script
+      src="https://kit.fontawesome.com/88994d9b18.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav>
+      <a href="" class="nav-item"
+        ><i class="far fa-user" aria-hidden="true"></i
+      ></a>
+      <a href="" class="nav-item"
+        ><i class="fa fa-shopping-cart" aria-hidden="true"></i
+      ></a>
+      <a href="" class="nav-item"
+        ><i class="fas fa-home" aria-hidden="true"></i
+      ></a>
+      <a href="" class="nav-item"
+        ><i class="fa fa-search" aria-hidden="true"></i
+      ></a>
+      <div class="lnav">
+        <i class="fa fa-user" aria-hidden="true"></i>
+        <a href="" class="nav-item">ثبت نام / ورود</a>
+      </div>
+    </nav>
+    <!-- end of nav  -->
+
+    <!-- slider  -->
+    <section class="slider">
+      <div class="slides">
+        <div class="item active" id="slide1">
+          <img src="./images/s1.jpg" alt="" />
+          <span>آهنگ ها رو زنده تر از اون چیزی که هستن گوش بده</span>
+        </div>
+        <div class="item" id="slide2">
+          <img src="./images/s2.jpg" alt="" />
+          <span style="color: white">رویا هاتو با صدای بلند گوش بده</span>
+        </div>
+        <div class="item" id="slide3">
+          <img src="./images/s3.jpg" alt="" />
+          <span>کیفیت صدایی که همیشه دنبالش بودی اینجاست</span>
+        </div>
+      </div>
+      <div class="buttons">
+        <i
+          onclick="setSlide('slide1' , 1)"
+          class="fa fa-circle"
+          aria-hidden="true"
+        ></i>
+        <i
+          onclick="setSlide('slide2' , 2)"
+          class="fa fa-circle"
+          aria-hidden="true"
+        ></i>
+        <i
+          onclick="setSlide('slide3' , 3)"
+          class="fa fa-circle"
+          aria-hidden="true"
+        ></i>
+      </div>
+    </section>
+    <!-- end of slider  -->
+
+    <!-- products  -->
+    <section class="ps">
+      <div class="row" style="margin: auto">
+        <div class="col-lg-3 col-md-4 col-xs-12 col-sm-6">
+          <div class="p-card">
+            <div class="h-card">
+              <img src="./images/p1.jpg" alt="" />
+              <div class="stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+              <div class="txt">پیشنهاد ویژه</div>
+            </div>
+            <div>هدست کامپیوتر تسکو مدل TH 5124</div>
+            <div class="foot-card">
+              <div class="right">800 هزار تومان</div>
+              <div class="left">
+                <div class="bt">
+                  <div>علاقه</div>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                </div>
+                <div class="bt">
+                  <div>خرید</div>
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-12 col-sm-6">
+          <div class="p-card">
+            <div class="h-card">
+              <img src="./images/p2.jpg" alt="" />
+              <div class="stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div>هدست کامپیوتر تسکو مدل TH 5124</div>
+            <div class="foot-card">
+              <div class="right">800 هزار تومان</div>
+              <div class="left">
+                <div class="bt">
+                  <div>علاقه</div>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                </div>
+                <div class="bt">
+                  <div>خرید</div>
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-12 col-sm-6">
+          <div class="p-card">
+            <div class="h-card">
+              <img src="./images/p3.jpg" alt="" />
+              <div class="stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+              <div class="txt">پیشنهاد ویژه</div>
+            </div>
+            <div>هدست بیسیم تسکو مدل TH 5124</div>
+            <div class="foot-card">
+              <div class="right">700 هزار تومان</div>
+              <div class="left">
+                <div class="bt">
+                  <div>علاقه</div>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                </div>
+                <div class="bt">
+                  <div>خرید</div>
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-12 col-sm-6">
+          <div class="p-card">
+            <div class="h-card">
+              <img src="./images/p4.jpg" alt="" />
+              <div class="stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div>هدست تسکو مدل TH 5124</div>
+            <div class="foot-card">
+              <div class="right">900 هزار تومان</div>
+              <div class="left">
+                <div class="bt">
+                  <div>علاقه</div>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                </div>
+                <div class="bt">
+                  <div>خرید</div>
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of products  -->
+
+    <!-- super offer  -->
+    <section class="supper-offer">
+      <div class="row" style="margin: auto">
+        <div class="col-lg-9 col-md-12">
+          <div class="offer-card">
+            <div class="pish"><span>پیشنهاد شگفت انگیز</span></div>
+            <div class="row" style="margin: auto">
+              <div class="col-lg-4 col-sm-6">
+                <img
+                  class="img-offer"
+                  src="./images/super-product.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-lg-8">
+                <div class="specs">
+                  <div class="r1">
+                    <span class="price">1 میلیون تومان</span>
+                    <span class="offer">60% تخفیف</span>
+                  </div>
+                  <div class="title">هدست ایسوس مدل strix</div>
+                  <div class="bord"></div>
+                  <div class="container-down">
+                    <span id="s">55</span> : <span id="m">15</span> :
+                    <span id="h">19</span>
+                  </div>
+                  <div class="inf">زمان باقی مانده تا پایان سفارش</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 imgg">
+          <div class="friday">
+            <img src="./images/friday.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of super offer  -->
+
+    <!-- dragable products  -->
+    <section class="drag-list">
+      <h1 class="title">هندزفری ها</h1>
+      <div id="owl-product" class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="p-card">
+            <div class="h-card">
+              <img src="./images/h1.jpg" alt="" />
+              <div class="stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+              <div class="txt">پیشنهاد ویژه</div>
+            </div>
+            <div>هدست کامپیوتر تسکو مدل TH 5124</div>
+            <div class="foot-card">
+              <div class="right">800 هزار تومان</div>
+              <div class="left">
+                <div class="bt">
+                  <div>علاقه</div>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                </div>
+                <div class="bt">
+                  <div>خرید</div>
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="p-card">
+            <div class="h-card">
+              <img src="./images/h2.jpg" alt="" />
+              <div class="stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+              <div class="txt">پیشنهاد ویژه</div>
+            </div>
+            <div>هدست کامپیوتر تسکو مدل TH 5124</div>
+            <div class="foot-card">
+              <div class="right">800 هزار تومان</div>
+              <div class="left">
+                <div class="bt">
+                  <div>علاقه</div>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                </div>
+                <div class="bt">
+                  <div>خرید</div>
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="p-card">
+            <div class="h-card">
+              <img src="./images/h3.jpg" alt="" />
+              <div class="stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+              <div class="txt">پیشنهاد ویژه</div>
+            </div>
+            <div>هدست کامپیوتر تسکو مدل TH 5124</div>
+            <div class="foot-card">
+              <div class="right">800 هزار تومان</div>
+              <div class="left">
+                <div class="bt">
+                  <div>علاقه</div>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                </div>
+                <div class="bt">
+                  <div>خرید</div>
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="p-card">
+            <div class="h-card">
+              <img src="./images/h4.jpg" alt="" />
+              <div class="stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+              <div class="txt">پیشنهاد ویژه</div>
+            </div>
+            <div>هدست کامپیوتر تسکو مدل TH 5124</div>
+            <div class="foot-card">
+              <div class="right">800 هزار تومان</div>
+              <div class="left">
+                <div class="bt">
+                  <div>علاقه</div>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                </div>
+                <div class="bt">
+                  <div>خرید</div>
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="p-card">
+            <div class="h-card">
+              <img src="./images/h5.jpg" alt="" />
+              <div class="stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+              <div class="txt">پیشنهاد ویژه</div>
+            </div>
+            <div>هدست کامپیوتر تسکو مدل TH 5124</div>
+            <div class="foot-card">
+              <div class="right">800 هزار تومان</div>
+              <div class="left">
+                <div class="bt">
+                  <div>علاقه</div>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                </div>
+                <div class="bt">
+                  <div>خرید</div>
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="p-card">
+            <div class="h-card">
+              <img src="./images/h6.jpg" alt="" />
+              <div class="stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+              <div class="txt">پیشنهاد ویژه</div>
+            </div>
+            <div>هدست کامپیوتر تسکو مدل TH 5124</div>
+            <div class="foot-card">
+              <div class="right">800 هزار تومان</div>
+              <div class="left">
+                <div class="bt">
+                  <div>علاقه</div>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                </div>
+                <div class="bt">
+                  <div>خرید</div>
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="p-card">
+            <div class="h-card">
+              <img src="./images/h7.jpg" alt="" />
+              <div class="stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+              <div class="txt">پیشنهاد ویژه</div>
+            </div>
+            <div>هدست کامپیوتر تسکو مدل TH 5124</div>
+            <div class="foot-card">
+              <div class="right">800 هزار تومان</div>
+              <div class="left">
+                <div class="bt">
+                  <div>علاقه</div>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                </div>
+                <div class="bt">
+                  <div>خرید</div>
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="p-card">
+            <div class="h-card">
+              <img src="./images/p1.jpg" alt="" />
+              <div class="stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+              <div class="txt">پیشنهاد ویژه</div>
+            </div>
+            <div>هدست کامپیوتر تسکو مدل TH 5124</div>
+            <div class="foot-card">
+              <div class="right">800 هزار تومان</div>
+              <div class="left">
+                <div class="bt">
+                  <div>علاقه</div>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                </div>
+                <div class="bt">
+                  <div>خرید</div>
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="p-card">
+            <div class="h-card">
+              <img src="./images/p1.jpg" alt="" />
+              <div class="stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+              <div class="txt">پیشنهاد ویژه</div>
+            </div>
+            <div>هدست کامپیوتر تسکو مدل TH 5124</div>
+            <div class="foot-card">
+              <div class="right">800 هزار تومان</div>
+              <div class="left">
+                <div class="bt">
+                  <div>علاقه</div>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                </div>
+                <div class="bt">
+                  <div>خرید</div>
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of dragable products  -->
+
+    <!-- footer  -->
+    <footer>
+      <div class="row" style="margin: auto;">
+        <div class="col-lg-8">
+          <h2>درباره ما</h2>
+          <span>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</span>
+        </div>
+        <div class="col-lg-4">
+          <div class="social">
+            <h2>ما را در شبکه های اجتماعی دنبال کنید</h2>
+            <div class="icons">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+              <i class="fa fa-telegram" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end of footer  -->
+
+    <!-- java script  -->
+    <script src="./main.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./jquery.js"></script>
+    <script src="./owl.carousel.min.js"></script>
+  </body>
+</html>

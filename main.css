@@ -1,0 +1,287 @@
+@font-face {
+  font-family: ir;
+  src: url(iran.ttf);
+}
+
+*{
+  font-family: ir;
+  direction: rtl;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+a{text-decoration: none;}
+
+/* nav  */
+nav{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-item{
+  color: rgb(74, 74, 74);
+  font-size: 20px;
+  margin: 10px;
+}
+
+.lnav{
+  border: solid 1px;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline;
+  margin-right: auto;
+}
+/* end of nav  */
+
+/* slider  */
+.slider{
+  position: relative;
+  background-color: brown;
+  display: inline;
+}
+
+.slider .slides{
+
+}
+
+.slider .slides .item{
+  position: relative;
+  display: none;
+}
+
+.slider .slides .active{
+  display: block;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+.item img{
+  width: 100%;
+}
+
+.item span{
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  font-size: 1.7em;
+  z-index: 1;
+}
+
+.slider .buttons{
+  position: absolute;
+  left: 3%;
+  bottom: 3%;
+  z-index: 1;
+  color: rgba(255, 255, 255, 0.848);
+}
+
+.slider .buttons i:hover{
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.456);
+
+}
+
+/* end of slider */
+
+/* products */
+.ps{
+  padding: 20px;
+}
+
+.p-card{
+  text-align: center;
+  box-shadow:1px 3px 7px 5px rgba(0, 0, 0, 0.334);
+  padding: 20px;
+  margin: 20px;
+}
+
+.p-card .h-card{
+  position: relative;
+}
+
+.h-card img{
+  width: 100%;
+}
+
+.h-card .stars{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  color: rgb(255, 213, 0);
+}
+
+.h-card .txt{
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  background-color: rgb(255, 85, 0);
+  color: white;
+  padding:0px 5px ;
+  border-radius: 10px;
+}
+
+.foot-card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.foot-card .left{
+  display: flex;
+}
+
+.left .bt{
+  background-color: rgb(0, 190, 0);
+  cursor: pointer;
+  color: white;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 9px;
+  border-radius: 21px;
+  transition: all 1s;
+  margin: 4px;
+}
+
+.left .bt:hover{
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border-radius: 21px;
+}
+
+.left .bt:hover div{
+  display: block;
+}
+
+.left .bt div{
+  display: none;
+}
+/* end of products */
+
+/* super offer */
+.supper-offer{
+  text-align: center;
+}
+
+.offer-card{
+  box-shadow:1px 3px 7px 5px rgba(0, 0, 0, 0.334);
+  border-radius: 5px;
+  margin: 30px;
+}
+
+.offer-card .pish{
+  color: white;
+  background-color: rgb(255, 60, 0);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  width: 180px;
+  height: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.offer-card .img-offer{
+  width: 100%;
+}
+
+.offer-card .specs{
+
+}
+
+.offer-card .specs .r1{
+  display: flex;
+  justify-content: space-around;
+  margin: 40px;
+}
+
+.offer-card .specs .r1 .price{
+
+}
+
+.offer-card .specs .r1 .offer{
+  background-color: rgb(255, 60, 0);
+  color: white;
+  padding: 0px 15px;
+  border-radius: 29px;
+}
+
+.offer-card .specs .title{
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.offer-card .specs .bord{
+  border: solid 1px rgba(0, 0, 0, 0.424);
+  margin: 60px;
+  
+}
+
+.offer-card .specs .container-down{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.offer-card .specs .inf{
+  color: rgb(78, 78, 78)
+}
+
+.friday{
+  border-radius: 5px;
+  margin: 20px;
+  text-align: center;
+}
+
+.friday img{
+  border-radius: 5px;
+
+}
+
+/* end of super offer */
+
+/* drag  */
+.drag-list .title{
+  border-bottom: solid red;
+  padding: 10px;
+  margin: 20px;
+  width: 150px;
+}
+
+.owl-stage-outer{
+  direction: ltr;
+}
+
+
+/* end of drag  */
+
+/* footer */
+footer{
+  background-color: teal;
+  color: white;
+  padding: 20px;
+}
+
+.social{
+  text-align: center;
+}
+
+.social div{
+  font-size: 2em;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+/* end of footer */
