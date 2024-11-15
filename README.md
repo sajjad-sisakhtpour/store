@@ -53,7 +53,7 @@ Store is a modern, user-friendly e-commerce web application designed to showcase
 
 ## Live Demo
 
-Access the live demo [here](https://github.com/sajjad-sisakhtpour/store).
+Access the live demo [here](https://sajjad-sisakhtpour.github.io/store).
 
 ## Contributing
 
